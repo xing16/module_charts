@@ -11,4 +11,7 @@ class ChartView : WebView {
     constructor(context: Context, attributeSet: AttributeSet) : super(context, attributeSet)
 
     fun getType() = "pie"
+	
+	
+	fun setData(){}
 }
